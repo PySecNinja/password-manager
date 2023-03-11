@@ -1,3 +1,11 @@
+"""
+USAGE - This code creates a GUI using the tkinter library in Python. The GUI contains various 
+        widgets such as Labels, Buttons, Entries, Textboxes, Spinboxes, Scales, Checkbuttons, 
+        Radiobuttons, and Listboxes. Each widget is configured and displayed in the window. 
+        The Buttons, Checkbutton, Radiobutton, and Listbox widgets have associated functions 
+        that print the current value of the widget when clicked or selected.
+"""
+
 from tkinter import *
 
 #Creating a new window and configurations
