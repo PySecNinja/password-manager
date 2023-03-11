@@ -1,30 +1,16 @@
-#!/usr/bin/env python3
-#
-#  [Program]
-#
-#  Password Manager
-#
-#  [Author]
-#
-#  Drew, https://github.com/Ahendrix9624/
-#
-#  [License]
-#
-#  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 3 of the License, or
-#  any later version.
-#
-#  This program is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#
-#  You should have received a copy of the GNU General Public License
-#  along with this program; if not, write to the Free Software
-#  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-#
-#  See 'LICENSE' for more information.
+"""
+USAGE - This code is a Password Manager application that stores website, username/email and password
+        data into a local JSON file, and allows the user to search for and generate passwords. 
+        It uses the tkinter module to create a user interface with several widgets like Labels, 
+        Entries, and Buttons. It also imports the random, pyperclip, and json modules to perform 
+        different functions like password generation, copying, and data storage respectively. 
+        The program validates user input by checking that no fields are left empty before saving 
+        the password data to a JSON file. It also checks whether the user-provided website already 
+        exists in the JSON file before saving or searching for password data. Finally, it has a 
+        logo image that is displayed on the UI.
+
+AUTHOR - https://github.com/Ahendrix9624/
+"""
 
 from tkinter import *
 from tkinter import messagebox
